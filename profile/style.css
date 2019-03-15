@@ -1,0 +1,143 @@
+body {
+  background-color: #003262;
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+font-family: 'Arimo', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #003262;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.intro p{
+  margin: 30px;
+}
+
+.container-white {
+  width: 650px;
+  padding: 25px;
+  background-color: #FFFFFF;
+  margin: 30px auto;
+  border-radius: 7px;
+  box-shadow: 0 0px 0px rgba(0,0,0,0);
+  text-align: center;
+}
+
+#grant-circle-profile {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.button-blue {
+  text-decoration: none;
+  background-color: #C4820E;
+  color: #003262;
+  padding: 15px 30px;
+  border-radius: 7px;
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+.button-blue:hover{
+  opacity:0.8;
+  color: #FFFFFF;
+}
+
+ul.inline-list {
+  padding-left:  0;
+}
+
+.inline-list li {
+  display: inline-block;
+}
+
+.card-skills {
+  justify-content: space-between;
+}
+
+.card-skills img{
+  height: 80px;
+}
+
+#ruby{
+  height: 36px;
+  padding-bottom: 22px;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+
+#ruby-word{
+  padding-right: 7px;
+}
+
+#sql {
+  height: 45px;
+  padding-bottom: 18px;
+  padding-right: 20px;
+}
+
+#html-word{
+  padding-left: 4px;
+}
+
+#css-word{
+  padding-right: 2px;
+}
+
+#sql-word{
+  padding-right: 17px;
+}
+
+.card-image {
+  display: inline-block;
+  justify-content: space-between;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.card-image-dimond {
+  max-width: 60px;
+  max-height: 35px;
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.link-icon{
+  font-size: 40px;
+  margin: 5px;
+}
+
+.title-justify {
+  margin: 0;
+}
+
+.ul li{
+  margin-left: 0px;
+  display: block;
+}
+ul.ul{
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container-white {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container-white {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container-white {
+    width: 300px;
+  }
